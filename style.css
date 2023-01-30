@@ -346,7 +346,7 @@ footer .container{
 
 .menu-bar{
    display: grid;
-   padding:50px 100px 0 100px;
+   margin: 0 20px;
    grid-template-columns: 50% 50%;
 }
 .menu-bar .menu-1{
@@ -463,17 +463,13 @@ footer .container{
 .testimonial .container{
    display: grid;
    padding: 30px 0;
-   margin-left: 100px;
+   margin: 0 20px;
    grid-template-columns: 50% 50%;
 }
 .testimonial .container .test-1 img{
    width: 500px;
    height: 400px;
    padding-top: 50px;
-}
-.testimonial .container .test-2{
-   width: 80%;
-   padding: 80px 0 0 20px;
 }
 .testimonial .container .test-2 h1{
    font-size: 30px;
@@ -532,9 +528,11 @@ footer .container{
    .help-container {
       grid-template-columns: 1fr;
       padding: 0;
+      position: relative;
+      top: 40px;
    }
    .help-container .help-content{
-      margin-left: 10%;
+      margin: 0 20px;
    }
    .menu-bar .menu-1{
       display: none;
@@ -599,6 +597,7 @@ footer .container{
    .menu-bar{
       grid-template-columns: 1fr;
       padding: 0;
+      margin: 0 20px;
    }
 }
 
@@ -693,6 +692,7 @@ footer .container{
    .menu-bar {
       grid-template-columns: 1fr;
       padding: 0;
+      margin: 0 20px;
    }
    .menu-bar .menu-0 h1{
       font-size: 20px;
@@ -727,12 +727,6 @@ footer .container{
   }
   .testimonial .container .test-1 img{
    display: none;
-  }
-  .testimonial .container .test-2{
-   position: relative;
-   left: -25%;
-   width: 100%;
-   top: -10%;
   }
   .testimonial .container .test-2 h1{
    font-size: 20px;
